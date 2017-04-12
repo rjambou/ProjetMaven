@@ -6,8 +6,19 @@ package rj;
  */
 public class App 
 {
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	App monApp;
+    	monApp = new App();
+        System.out.println( "Hello World, it's me, Remi !" );
+        monApp.max(4, 5);
     }
+
+    
+    public int max(int a, int b)
+    {
+    	return a;
+    }
+	
 }
